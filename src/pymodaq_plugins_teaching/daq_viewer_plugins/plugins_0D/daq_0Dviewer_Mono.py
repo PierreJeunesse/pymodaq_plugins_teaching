@@ -70,7 +70,7 @@ class DAQ_0DViewer_Mono(DAQ_Viewer_base):
     def close(self):
         """Terminate the communication protocol"""
         ## TODO for your custom plugin
-        raise NotImplemented  # when writing your own plugin remove this line
+        #raise NotImplemented  # when writing your own plugin remove this line
         #  self.controller.your_method_to_terminate_the_communication()  # when writing your own plugin replace this line
 
     def grab_data(self, Naverage=1, **kwargs):
